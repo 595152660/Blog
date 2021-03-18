@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <title>错误</title>
+</head>
+<body>
+<nav th:replace="_fragments :: menu(0)"></nav>
+
+<div class="m-container-small m-padder-tb-big">
+    <div class="ui error message">
+        <div class="ui container">
+            <h2>错误</h2>
+        </div>
+    </div>
+</div>
+
+<footer th:replace="_fragments::footer"></footer>
+</body>
+</html>
